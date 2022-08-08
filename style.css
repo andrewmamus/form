@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./font/Norse-Bold.otf);
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left-handside{
+    color:#fff;
+    width:40vw;
+    background-image: url('./image/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.logo{
+    font-family: Norse-Bold;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    padding:8px;
+    margin-top:30%;
+}
+
+.logo > img{
+    width:70px;
+    height: auto;
+}
+
+.logo h1{
+    font-size:4rem;
+}
+
+.left-handside p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom:20px;
+    text-align:center;
+    width:100%;
+}
+
+.left-handside p a{
+    color: inherit;
+}
+
+.right-handside{
+    width:60vw;
+    padding-top:14vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #E5E7EB;
+}
+
+.padding-left{
+    padding-left:5%;
+    padding-right:10%;
+}
+
+.right-handside h2{
+    line-height: 35px;
+    font-size: 1.5rem;
+    margin-bottom: 26px;
+    font-weight: 500;
+}
+
+.form{
+    padding-top:20px;
+    background:#fff;
+    box-shadow: 0px 5px 8px #bababa;
+    padding-bottom:20px;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+}
+
+input{
+    display:block;
+    margin-right:50px;
+    border:none;
+    border: 1px solid #E5E7EB;
+    border-radius:2px;
+    padding:4px;
+}
+
+input:focus{
+    outline: none;
+    border-color:blue;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight:bold;
+    color:#333;
+    
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.error{
+    font-size:9px;
+    color: red;
+}
+
+.error-show{
+    display:block;
+}
+
+.error-hide{
+    display: none;
+}
+
+button{
+    margin-top:30px;
+    background-color: #596D48;
+    color:#fff;
+    border:none;
+    padding:10px;
+    width:150px;
+    border-radius: 5px;
+    margin-left:5%;
+    box-shadow: 0 3px 4px #bababa;
+    cursor: pointer;
+}
+
+.login{
+    margin-top:20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login a{
+    color: #596D48;
+    text-decoration:none;
+}

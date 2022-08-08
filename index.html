@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="left-handside">
+            <div class="logo">
+                <img src="./image/logo.png" alt="the odin project logo"> <h1>ODIN</h1>
+            </div>
+            
+            <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </section>
+        <section class="right-handside">
+            <h2 class="padding-left">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br> Sign up now to get started</h2>
+            <h2 class="padding-left">
+                You know you want to
+            </h2>
+            <form action="#">
+                <div class="form padding-left">
+                <h2>Let's do this!</h2>
+                <fieldset>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <div class="form-group">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <div class="form-group">
+                        <label for="password">Password </label>
+                        <input type="password" name="password" id="password" class="mypass" required>
+                        <p class="error error-hide">*Passwords do not match</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="password" id="confirm-password"
+                        class="mypass2" required>
+                    </div>
+                </fieldset>
+            </div>
+                <button type="submit">Create Account</button>
+            </form>
+            
+            <p class="padding-left login">Already have an account? <a href="#">Log in</a></p>
+        </section>
+        
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
